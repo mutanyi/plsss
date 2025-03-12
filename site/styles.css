@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    /* Removed min-height and flex properties */
+}
+
+header {
+    background-color: #1a3c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #2e5c54;
+    padding: 5px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    /* Removed flex-grow */
+}
+
+.highlight {
+    color: #1a3c34;
+    font-weight: bold;
+}
+
+.plusses-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.plusses-list li {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #2e5c54;
+}
+
+p {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.map-container {
+    margin: 20px 0;
+}
+
+iframe {
+    border: 0;
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+}
+
+footer {
+    background-color: #1a3c34;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    /* Flows naturally after content */
+}
